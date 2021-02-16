@@ -7,9 +7,6 @@
         },
         {
           "Image": "streamdeck-zoom-unmuted"
-        },
-        {
-          "Image": "streamdeck-zoom-muted-closed"
         }
       ],
       "SupportedInMultiActions": true,
@@ -25,9 +22,6 @@
         },
         {
           "Image": "streamdeck-zoom-video-started"
-        },
-        {
-          "Image": "streamdeck-zoom-video-closed"
         }
       ],
       "SupportedInMultiActions": true,
@@ -40,12 +34,6 @@
       "States": [
         {
           "Image": "streamdeck-zoom-share-start"
-        },
-        {
-          "Image": "streamdeck-zoom-share-stop"
-        },
-        {
-          "Image": "streamdeck-zoom-share-closed"
         }
       ],
       "SupportedInMultiActions": true,
@@ -76,9 +64,6 @@
         },
         {
           "Image": "streamdeck-zoom-record-local-started"
-        },
-        {
-          "Image": "streamdeck-zoom-record-local-disabled"
         }
       ],
       "SupportedInMultiActions": true,
