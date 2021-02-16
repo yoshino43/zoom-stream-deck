@@ -11,6 +11,10 @@ import (
 
 func main() {
 	sdk.RegisterAction("yy.zoom.controller.mute", MuteAction)
+	sdk.RegisterAction("yy.zoom.controller.video", MuteAction)
+	sdk.RegisterAction("yy.zoom.controller.share", MuteAction)
+	sdk.RegisterAction("yy.zoom.controller.leave", MuteAction)
+	sdk.RegisterAction("yy.zoom.controller.record", MuteAction)
 	// Open and connect the SDK
 	if err := sdk.Open(); err != nil {
 		log.Fatalln(err)

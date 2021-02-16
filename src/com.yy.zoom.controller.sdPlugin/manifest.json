@@ -1,28 +1,103 @@
 {
   "Actions": [
     {
-      "Icon": "icon",
-      "Name": "Mute",
       "States": [
         {
-          "Image": "defaultImage",
-          "TitleAlignment": "middle",
-          "FontSize": "17"
+          "Image": "streamdeck-zoom-muted"
+        },
+        {
+          "Image": "streamdeck-zoom-unmuted"
+        },
+        {
+          "Image": "streamdeck-zoom-muted-closed"
         }
       ],
-      "SupportedInMultiActions": false,
-      "Tooltip": "This action Control Zoom",
+      "SupportedInMultiActions": true,
+      "Icon": "streamdeck-zoom-muted-actionicon",
+      "Name": "Mute Toggle",
+      "Tooltip": "Toggle Zoom Mute Status",
       "UUID": "yy.zoom.controller.mute"
+    },
+    {
+      "States": [
+        {
+          "Image": "streamdeck-zoom-video-stopped"
+        },
+        {
+          "Image": "streamdeck-zoom-video-started"
+        },
+        {
+          "Image": "streamdeck-zoom-video-closed"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Icon": "streamdeck-zoom-video-actionicon",
+      "Name": "Video Toggle",
+      "Tooltip": "Toggle Zoom Video",
+      "UUID": "yy.zoom.controller.video"
+    },
+    {
+      "States": [
+        {
+          "Image": "streamdeck-zoom-share-start"
+        },
+        {
+          "Image": "streamdeck-zoom-share-stop"
+        },
+        {
+          "Image": "streamdeck-zoom-share-closed"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Icon": "streamdeck-zoom-share-actionicon",
+      "Name": "Share Toggle",
+      "Tooltip": "Bring up the share screen window, or stop sharing",
+      "UUID": "yy.zoom.controller.share"
+    },
+    {
+      "States": [
+        {
+          "Image": "streamdeck-zoom-leave"
+        },
+        {
+          "Image": "streamdeck-zoom-leave-closed"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Icon": "streamdeck-zoom-leave-actionicon",
+      "Name": "Leave Meeting",
+      "Tooltip": "Leave an active meeting. If you're the host, this ends the meeting.",
+      "UUID": "yy.zoom.controller.leave"
+    },
+    {
+      "States": [
+        {
+          "Image": "streamdeck-zoom-record-local-stopped"
+        },
+        {
+          "Image": "streamdeck-zoom-record-local-started"
+        },
+        {
+          "Image": "streamdeck-zoom-record-local-disabled"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Icon": "streamdeck-zoom-record-local-actionicon",
+      "Name": "Local Record Toggle",
+      "Tooltip": "Toggle Zoom Recording to your local computer",
+      "UUID": "yy.zoom.controller.record"
     }
   ],
-  "SDKVersion": 2,
-  "Author": "yy",
   "CodePathWin": "zoom.exe",
   "CodePathMac": "zoom",
-  "Description": "Control Zoom",
-  "Name": "ZoomController",
-  "Icon": "icon",
-  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "Author": "y-yoshino",
+  "Description": "Control your Zoom meetings for jp client",
+  "URL": "https://github.com/yoshino43/zoomdeck",
+  "Name": "Zoom Japan",
+  "Category": "Zoom",
+  "CategoryIcon": "video-camera",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Icon": "video-camera-plugin",
   "Version": "1.2",
   "OS": [
     {
@@ -34,8 +109,8 @@
       "MinimumVersion" : "10"
     }
   ],
-  "Software":
-  {
-    "MinimumVersion" : "4.1"
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
   }
 }
