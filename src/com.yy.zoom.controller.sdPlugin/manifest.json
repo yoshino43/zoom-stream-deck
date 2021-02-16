@@ -16,7 +16,7 @@
       "Icon": "streamdeck-zoom-muted-actionicon",
       "Name": "Mute Toggle",
       "Tooltip": "Toggle Zoom Mute Status",
-      "UUID": "yy.zoom.controller.mute"
+      "UUID": "com.yy.zoom.controller.mute"
     },
     {
       "States": [
@@ -34,7 +34,7 @@
       "Icon": "streamdeck-zoom-video-actionicon",
       "Name": "Video Toggle",
       "Tooltip": "Toggle Zoom Video",
-      "UUID": "yy.zoom.controller.video"
+      "UUID": "com.yy.zoom.controller.video"
     },
     {
       "States": [
@@ -52,7 +52,7 @@
       "Icon": "streamdeck-zoom-share-actionicon",
       "Name": "Share Toggle",
       "Tooltip": "Bring up the share screen window, or stop sharing",
-      "UUID": "yy.zoom.controller.share"
+      "UUID": "com.yy.zoom.controller.share"
     },
     {
       "States": [
@@ -67,7 +67,7 @@
       "Icon": "streamdeck-zoom-leave-actionicon",
       "Name": "Leave Meeting",
       "Tooltip": "Leave an active meeting. If you're the host, this ends the meeting.",
-      "UUID": "yy.zoom.controller.leave"
+      "UUID": "com.yy.zoom.controller.leave"
     },
     {
       "States": [
@@ -85,20 +85,19 @@
       "Icon": "streamdeck-zoom-record-local-actionicon",
       "Name": "Local Record Toggle",
       "Tooltip": "Toggle Zoom Recording to your local computer",
-      "UUID": "yy.zoom.controller.record"
+      "UUID": "com.yy.zoom.controller.record"
     }
   ],
-  "CodePathWin": "zoom.exe",
   "CodePathMac": "zoom",
   "Author": "y-yoshino",
-  "Description": "Control your Zoom meetings for jp client",
+  "Description": "Control your Zoom meetings for jp mac client",
   "URL": "https://github.com/yoshino43/zoomdeck",
   "Name": "Zoom Japan",
-  "Category": "Zoom",
+  "Category": "ZoomJP",
   "CategoryIcon": "video-camera",
   "PropertyInspectorPath": "propertyinspector/index.html",
   "Icon": "video-camera-plugin",
-  "Version": "1.2",
+  "Version": "1.0",
   "OS": [
     {
       "Platform": "mac",
