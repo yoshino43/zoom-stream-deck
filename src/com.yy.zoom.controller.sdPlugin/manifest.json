@@ -87,10 +87,6 @@
     {
       "Platform": "mac",
       "MinimumVersion" : "10.11"
-    },
-    {
-      "Platform": "windows",
-      "MinimumVersion" : "10"
     }
   ],
   "SDKVersion": 2,

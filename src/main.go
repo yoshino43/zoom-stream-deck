@@ -234,7 +234,7 @@ func RecordAction(action, context string, payload *fastjson.Value, deviceId stri
 		if exists (menu item "レコーディング" of menu 1 of menu bar item "ミーティング" of menu bar 1) then
 			click (menu item "レコーディング" of menu 1 of menu bar item "ミーティング" of menu bar 1)
 		else
-			click (menu item "レコーディングの停止" of menu 1 of menu bar item "ミーティング" of menu bar 1)
+			click (menu item "レコーディングを停止" of menu 1 of menu bar item "ミーティング" of menu bar 1)
 		end if
 	end tell
 end tell
