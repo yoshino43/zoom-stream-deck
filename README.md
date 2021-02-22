@@ -19,3 +19,6 @@
 # Installation
 [Release/com.yy.zoom.controller.sdPlugin.streamDeckPlugin](https://github.com/yoshino43/zoomdeck/blob/master/Release/com.yy.zoom.controller.sdPlugin.streamDeckPlugin)
 からファイルをダウンロードして展開してください
+
+# DEMO
+![DEMO](https://user-images.githubusercontent.com/47911295/108721877-d9229100-7565-11eb-80c3-c149e90fef08.png)
