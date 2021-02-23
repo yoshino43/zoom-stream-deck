@@ -1,4 +1,4 @@
-# zoomdeck
+# zoom-stream-deck
 
 [elgato Stream Deck](https://www.elgato.com/ja/gaming/stream-deck)のZoomアプリ操作プラグインです。
 
